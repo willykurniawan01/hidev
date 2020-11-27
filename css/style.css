@@ -1,0 +1,777 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;700&family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+    font-family: 'Montserrat', sans-serif;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.navbar {
+    background-color: #E2EDFF !important;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+
+.navbar .navbar-nav .active {
+    color: #fff !important;
+    font-weight: 700;
+}
+
+
+/* Custom Button */
+.btn-custom-primary {
+    background-color: #3DD5FF;
+    color: #fff;
+    font-weight: 600;
+}
+
+.btn-custom-primary:hover {
+    color: #fff;
+    background-color: #7eddf7;
+}
+
+.btn-custom-white {
+    background-color: #fff;
+    color: #7eddf7;
+    font-weight: 600;
+}
+
+.btn-custom-white:hover {
+    color: #fff;
+    background-color: #081740;
+}
+
+.btn-custom-outline {
+    background-color: transparent;
+    border: 2px solid #3DD5FF;
+    color: #3DD5FF;
+    font-weight: 600;
+}
+
+
+.btn-custom-outline:hover {
+    background-color: #3DD5FF;
+    border: 2px solid #3DD5FF;
+    color: #fff;
+    transition: all .8s;
+    font-weight: 600;
+}
+
+.btn-custom-outline-white {
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid #fff;
+    font-weight: 600;
+}
+
+.btn-custom-outline-white:hover {
+    color: #3DD5FF;
+    background-color: #fff;
+    border: 2px solid #fff;
+}
+
+.btn-rounded {
+    border-radius: 20px;
+}
+
+/* Custom Button end */
+
+
+/* Background */
+.bg-custom-primary {
+    background-color: #E2EDFF;
+}
+
+
+
+/* Background End */
+
+/* Banner Section */
+
+section.banner .jumbotron {
+    margin-top: 92px;
+    background-size: cover;
+    min-height: 100vh;
+    font-family: 'Lora', sans-serif;
+    margin-bottom: 0;
+}
+
+section.banner .jumbotron .text-heading {
+    font-weight: 700;
+    font-size: 4rem;
+    color: #081740;
+}
+
+section.banner .jumbotron .text-desc {
+    margin-top: 20px;
+    color: #8994B0;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+/* Banner Section End */
+
+/* Division Section */
+section.division .jumbotron {
+    padding: 100px;
+    background-color: #fff;
+}
+
+
+section.division .jumbotron .title {
+    color: #081740;
+    font-size: 1.8rem;
+    text-align: center;
+    font-family: 'Lora', sans-serif;
+    font-weight: 700;
+    margin-bottom: 100px;
+
+}
+
+.division-info .info-title {
+    color: #081740;
+    font-weight: 600;
+    font-family: 'Lora', sans-serif;
+    font-size: 24px;
+}
+
+/* Division Section End */
+
+
+/* Text Banner*/
+section.text-banner .jumbotron .text-heading {
+    font-family: 'Lora', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #081740;
+}
+
+section.text-banner .jumbotron {
+    padding: 150px 100px;
+    background-color: #E2EDFF;
+}
+
+
+section.text-banner .jumbotron .text-desc {
+    font-family: 'Lora', sans-serif;
+    font-size: 1.8rem;
+}
+
+/* Text Banner End*/
+
+
+/* footer */
+footer.footer {
+    padding: 50px;
+}
+
+footer.footer .footer-link-header {
+    color: #081740;
+    font-family: 'Lora', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+footer.footer .footer-link {
+    color: #8994B0;
+    font-size: 16px;
+}
+
+footer.footer .copyright {
+    font-size: 20px;
+    text-align: center;
+    color: #8994B0;
+    font-family: 'Lora', sans-serif;
+    margin-top: 100px;
+}
+
+footer.footer .text-logo {
+    line-height: 1.5rem;
+    color: #8994B0;
+}
+
+/* footer */
+
+
+
+
+/* custom navbar */
+@media (max-width: 992px) {
+    .navbar-collapse {
+        position: fixed;
+        top: 0;
+        /* adjust to height of navbar */
+        left: 0;
+        background-color: #E2EDFF;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 15px;
+        width: 75%;
+        z-index: 999;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .navbar .navbar-nav .user {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navbar .navbar-nav .user .profile {
+        width: 100px;
+        height: 100px;
+        border: 5px solid #081740;
+        border-radius: 50px;
+        border-style: dashed;
+    }
+
+    .navbar .navbar-nav .user .username {
+        font-family: 'Lora', sans-serif;
+        font-weight: 600;
+        text-align: center;
+        font-size: 1rem;
+        margin-top: 10px;
+    }
+
+
+    .navbar-collapse .navbar-toggler {
+        margin-left: auto;
+        background-color: transparent;
+    }
+
+
+    .navbar-collapse .navbar-toggler:focus {
+        outline: none;
+    }
+
+    .navbar .navbar-toggler:focus {
+        outline: none;
+    }
+
+
+    .navbar-collapse .navbar-nav {
+        display: flex;
+        align-items: center;
+        width: 80%;
+        height: 80%;
+        justify-content: space-around;
+    }
+
+
+    .navbar-collapse .navbar-nav .title {
+        color: #081740;
+        font-weight: 600;
+        font-family: 'Lora', sans-serif;
+        font-size: 1.5rem;
+    }
+
+    .navbar-collapse .navbar-nav .nav-link {
+        color: #081740;
+        font-size: 1rem;
+        width: 80%;
+        text-align: center;
+        border-radius: 20px;
+    }
+
+    .navbar-collapse .navbar-nav .nav-link:hover {
+        font-weight: 600;
+    }
+
+
+
+    .navbar-collapse.collapsing {
+        left: -75%;
+        transition: height 0s ease;
+    }
+
+    .navbar-collapse.show {
+        left: 0;
+        transition: left 300ms ease-in-out;
+    }
+
+    .navbar-toggler.collapsed~.navbar-collapse {
+        transition: left 500ms ease-in-out;
+    }
+
+    /* Banner Section */
+    section.banner .jumbotron {
+        margin-top: 92px;
+        background-position: 100%;
+        min-height: 60vh;
+        font-family: 'Lora', sans-serif;
+    }
+
+    section.banner .jumbotron .text-heading {
+        font-weight: 700;
+        color: #081740;
+        font-size: 2rem;
+    }
+
+    section.banner .jumbotron .text-desc {
+        margin-top: 20px;
+        color: #8994B0;
+        font-size: 1rem;
+        line-height: 1.5rem;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+
+    /* Banner Section End*/
+
+
+    /* Text Banner*/
+
+    section.text-banner .jumbotron .text-heading {
+        font-family: 'Lora', sans-serif;
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+
+    section.text-banner .jumbotron {
+        padding: 80px 50px;
+        background-color: #E2EDFF;
+    }
+
+
+    section.text-banner .jumbotron .text-desc {
+        font-family: 'Lora', sans-serif;
+        font-size: 1rem;
+    }
+
+
+
+    /* Text Banner End*/
+
+
+    section.division .jumbotron {
+        padding: 50px;
+        background-color: #fff;
+    }
+
+    footer.footer .copyright {
+        font-size: 1rem;
+    }
+
+
+}
+
+/*  */
+
+section.login {
+    height: 100vh;
+    width: 100%;
+}
+
+
+section.login .left {
+    height: 100vh;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #8994B0;
+}
+
+
+section.login .left .title {
+    font-size: 2.5rem;
+    font-family: 'Lora', sans-serif;
+    color: #081740;
+    font-weight: 700;
+    margin-top: 2rem;
+}
+
+
+section.login .left .desc {
+    color: #8994B0;
+    font-size: 1rem;
+    margin-top: 20px;
+    line-height: 1.5rem;
+}
+
+
+section.login .left .login-form {
+    width: 80%;
+}
+
+
+
+section.login .right {
+    height: 100vh;
+    background-size: cover;
+    padding: 80px;
+}
+
+section.login .right .title {
+    font-size: 3rem;
+    font-family: 'Lora', sans-serif;
+    color: #081740;
+    font-weight: 700;
+}
+
+/* Login */
+
+
+/* Register */
+
+
+section.register {
+    height: 100vh;
+    width: 100%;
+}
+
+
+section.register .left {
+    height: 100vh;
+    display: flex;
+    padding: 50px;
+    flex-direction: column;
+    align-items: center;
+    color: #8994B0;
+}
+
+
+section.register .left .title {
+    font-size: 2.5rem;
+    font-family: 'Lora', sans-serif;
+    color: #081740;
+    font-weight: 700;
+    margin-top: 2rem;
+}
+
+
+section.register .left .desc {
+    color: #8994B0;
+    font-size: 1rem;
+    margin-top: 20px;
+    line-height: 1.5rem;
+}
+
+
+
+
+
+section.register .right {
+    height: 100vh;
+    background-size: cover;
+    padding: 80px;
+    background-repeat: no-repeat;
+}
+
+section.register .right .title {
+    font-size: 3rem;
+    font-family: 'Lora', sans-serif;
+    color: #081740;
+    font-weight: 700;
+}
+
+/* Register */
+
+/* Custom Input */
+.custom-input {
+    background-color: #E2EDFF;
+    border-style: none;
+}
+
+
+.custom-select-option {}
+
+/* Custom input */
+
+
+
+
+/* dashboard */
+.wrapper {
+    height: 100vh;
+}
+
+.wrapper .sidebar {
+    background-color: #E2EDFF;
+    min-height: 100vh;
+    padding: 50px;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    left: 0;
+    bottom: 0;
+    width: 300px;
+}
+
+
+.wrapper .main {
+    margin-left: 300px;
+    padding: 50px;
+}
+
+.wrapper .sidebar .user {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper .sidebar .user .profile {
+    width: 100px;
+    height: 100px;
+    border: 5px solid #081740;
+    border-radius: 75px;
+    border-style: dashed;
+    border-width: 5px;
+}
+
+
+.wrapper .sidebar .user .username {
+    margin-top: 10px;
+    text-align: center;
+    font-family: 'Lora', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.wrapper .sidebar .menu-container {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+
+.wrapper .sidebar .menu-container .title {
+    font-family: 'Lora', sans-serif;
+    color: #081740;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.wrapper .sidebar .menu-container .link {
+    margin-top: 20px;
+    font-size: .9rem;
+    color: #8994B0;
+}
+
+.wrapper .main .header {}
+
+.wrapper .main .header .title {
+    color: #081740;
+    font-weight: 500;
+    font-size: 2rem;
+    font-family: 'Lora', sans-serif;
+}
+
+
+.wrapper .main .container .banner {
+    width: 800px;
+    background-color: #E2EDFF;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.wrapper .main .container .banner .title {
+    font-size: 1.8rem;
+    font-family: 'Lora', sans-serif;
+    color: #081740;
+    margin-top: 20px;
+}
+
+
+.wrapper .main .container .banner .desc {
+    color: #8994B0;
+    font-size: 1rem;
+    margin-top: 20px;
+}
+
+.wrapper-mobile .navbar-bottom {
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    border-top-right-radius: 60px;
+    border-top-left-radius: 60px;
+    background-color: #E2EDFF;
+}
+
+
+.wrapper-mobile .header {
+    padding: 20px 30px;
+    background-color: #E2EDFF;
+    margin-top: 80px;
+}
+
+
+.wrapper-mobile .header .title {
+    font-family: 'Lora', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+
+.wrapper-mobile .header .desc {
+    color: #8994B0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+
+.wrapper-mobile .navbar-bottom .link {
+    width: 30%;
+    background-color: #E2EDFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    padding: 10px;
+    text-decoration: none;
+    color: #081740;
+}
+
+
+.wrapper-mobile .navbar-bottom .link.active {
+    color: #3DD5FF;
+}
